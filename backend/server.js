@@ -22,6 +22,10 @@ app.use('/api/questionsets', questionSetRoutes);
 app.use('/api/attempts', attemptRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
+app.get('/', (req, res) => {
+  res.json({ status: 'Interview-Prep_copilot is running' });
+});
+
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
 
@@ -31,10 +35,6 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 5000;
-
-app.get('/', (req, res) => {
-  res.json({ status: 'Interview-Prep_copilot is running' });
-});
 
 
 mongoose
