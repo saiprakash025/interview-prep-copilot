@@ -6,8 +6,8 @@ Built to prep for Indian campus placements — paste a JD, get categorized quest
 
 ## Live Demo
 
-- Frontend: `https://interview-prep-copilot.vercel.app`
-- Backend health check: `https://interview-prep-copilot.onrender.com`
+- Frontend: https://interview-prep-copilot.vercel.app
+- Backend : https://interview-prep-copilot.onrender.com
 
 *(Note: backend is on Render's free tier, which sleeps after ~15 min of inactivity — first request may take 30–50s to wake up.)*
 
